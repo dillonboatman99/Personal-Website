@@ -1,0 +1,89 @@
+html     
+{
+  background: url(../images/background2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body { 
+  font-family: 'helvetica Neue', sans-serif;
+  display: block;
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+} 
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+section {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .65);
+    width:  400px;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    color: white;
+    margin: 140px auto 140px auto;
+}
+
+.prof-box{
+    height: 470px;
+    text-align: center; 
+    
+}
+.aboutme-box{
+    height: 300px;
+    text-align: left;
+    letter-spacing: 2px;
+    
+}
+
+.skills-box{
+    height: 450px;
+    text-align: left;
+    letter-spacing: 2px;
+    
+    
+}
+
+.portfolio-box{
+    height: 450px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.prof-box img {
+    width: 200px;
+    border-radius: 50%;
+    height:200px;
+    
+}
+
+h1{
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+a, a:active, a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links{
+    font-size: 40px;
+    
+}
+
+.line-break{
+    width: 380px;
+    border-top: 1px solid white;
+    margin: 0 auto;
+}
